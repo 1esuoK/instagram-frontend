@@ -163,7 +163,7 @@ const SignUp = () => {
                 </div>
 
                 <div className="bg-white border p-5 text-center">
-                    <span>Already have an account? <Link to="/login" className="text-primary-blue">Log in</Link></span>
+                    <span>Already have an account? <Link to="/login" className="text-primary-blue">Sign in</Link></span>
                 </div>
             </Auth>
         </>
