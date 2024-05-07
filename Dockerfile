@@ -11,8 +11,10 @@ COPY . .
 
 RUN npm run build
 
-#Serve with nginx
+#Serve react with nginx
 FROM nginx:1.23-alpine
+
+COPY nginx.conf /etc/nginx/nginx.conf
 
 WORKDIR /usr/share/nginx/html
 
