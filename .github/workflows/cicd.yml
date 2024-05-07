@@ -27,4 +27,4 @@ jobs:
       - name: Delete old container
         run: docker rm -f insta-fe-container
       - name: Run docker container
-        run: docker run -d -p 3000:80 --name insta-fe-container trituong/insta-frontend
+        run: docker run -d -p 3000:3000 --name insta-fe-container trituong/insta-frontend
