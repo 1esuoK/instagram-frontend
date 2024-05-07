@@ -1,7 +1,7 @@
-export const BASE_PROFILE_IMAGE_URL='http://localhost:5000/public/uploads/profiles/';
-export const BASE_POST_IMAGE_URL='http://localhost:5000/public/uploads/posts/';
+export const BASE_PROFILE_IMAGE_URL='http://44.206.33.129:4000/public/uploads/profiles/';
+export const BASE_POST_IMAGE_URL='http://44.206.33.129:4000/public/uploads/posts/';
 
-export const SOCKET_ENDPOINT = "http://localhost:5000";
+export const SOCKET_ENDPOINT = "http://44.206.33.129:4000/";
 
 // export const BASE_PROFILE_IMAGE_URL = 'https://instagrammern.herokuapp.com/public/uploads/profiles/';
 // export const BASE_POST_IMAGE_URL = 'https://instagrammern.herokuapp.com/public/uploads/posts/';
