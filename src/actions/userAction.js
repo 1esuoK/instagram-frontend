@@ -13,7 +13,7 @@ export const loginUser = (userId, password) => async (dispatch) => {
         }
 
         const { data } = await axios.post(
-            '/api/v1/login',
+            '/usr/share/nginx/html/api/v1/login',
             { userId, password },
             config
         );
@@ -43,7 +43,7 @@ export const registerUser = (userData) => async (dispatch) => {
         }
 
         const { data } = await axios.post(
-            '/api/v1/signup',
+            '/usr/share/nginx/html/api/v1/signup',
             userData,
             config
         );
