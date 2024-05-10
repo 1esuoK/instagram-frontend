@@ -13,7 +13,7 @@ export const loginUser = (userId, password) => async (dispatch) => {
         }
 
         const { data } = await axios.post(
-            '/api/v1/login',
+            'http://insta-be-container:4000/api/v1/login',
             { userId, password },
             config
         );
@@ -43,7 +43,7 @@ export const registerUser = (userData) => async (dispatch) => {
         }
 
         const { data } = await axios.post(
-            '/api/v1/signup',
+            'http://insta-be-container:4000/api/v1/signup',
             userData,
             config
         );
